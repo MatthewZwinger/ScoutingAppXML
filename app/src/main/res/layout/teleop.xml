@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    >
+
+    <Button
+        android:text="High Goal"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:layout_height="100dp"
+        android:layout_width="160dp"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:text="Shots Missed"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:layout_columnWeight="2"
+        android:layout_columnSpan="2"
+        android:layout_width="170dp"
+        android:layout_height="100dp"
+        android:textSize="20dp"
+        android:layout_gravity="center|top"
+        />
+
+    <Button
+        android:text="Low Goal"
+        android:layout_column="3"
+        android:layout_row="0"
+        android:layout_height="100dp"
+        android:layout_width="160dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Defense Crosses"
+        android:layout_columnWeight="2"
+        android:layout_columnSpan="2"
+        android:id="@+id/textView2"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_gravity="top|center"
+        />
+    <Button
+        android:text="Portcullis"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:layout_height="80dp"
+        android:layout_width="135dp"
+        android:layout_gravity="top"
+        />
+    <Button
+        android:text="Cheval De Frise"
+        android:layout_column="0"
+        android:layout_row="4"
+        android:layout_gravity="top"
+        android:layout_height="80dp"
+        />
+    <Button
+        android:text="Moat"
+        android:layout_column="1"
+        android:layout_row="3"
+        android:layout_height="80dp"
+        android:layout_width="135dp"
+        />
+    <Button
+        android:text="ramparts"
+        android:layout_column="1"
+        android:layout_row="4"
+        android:layout_height="80dp"
+        android:layout_width="135dp"
+        android:layout_gravity="top"
+        />
+    <Button
+        android:text="Drawbridge"
+        android:layout_column="2"
+        android:layout_row="3"
+        android:layout_height="80dp"
+        android:layout_width="135dp"
+        />
+
+
+</GridLayout>
